@@ -55,22 +55,6 @@ const Blog = () => {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
       date: "May 30, 2021",
     },
-    {
-      id: 7,
-      title: "Day 3: React JS Journey",
-      image: "../../asset/2.jpg",
-      desciption:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
-      date: "May 30, 2021",
-    },
-    {
-      id: 8,
-      title: "Day 4: React JS Journey",
-      image: "../../asset/sample.jpg",
-      desciption:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
-      date: "May 30, 2021",
-    },
   ];
   const [select, setSelect] = useState(0);
   const [viewimg, setImg] = useState("");
