@@ -15,12 +15,14 @@ const Maintenance = () => {
           <i class="fas fa-tools"></i>
         </h1>
         <h1>under construction!</h1>
-        <button onClick={Back} className={classes.back}>
-          Back to Home
-        </button>
-        <button onClick={Go} className={classes.proceed}>
+        <div className="text-center">
+          <button onClick={Back} className={classes.back}>
+            Back to Home
+          </button>
+        </div>
+        {/* <button onClick={Go} className={classes.proceed}>
           Proceed to Blog Section
-        </button>
+        </button> */}
       </div>
     </section>
   );
