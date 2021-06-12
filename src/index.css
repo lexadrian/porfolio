@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    overflow-x: hidden;
+  }
+}

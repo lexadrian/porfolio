@@ -1,0 +1,135 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--primary-font);
+}
+p,
+label,
+button,
+input {
+  font-family: var(--secondary-font);
+}
+.services {
+  width: 100%;
+  float: left;
+  padding: 70px 55px 115px 55px;
+}
+
+.service {
+  font-size: 45pt;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.serviceImg {
+  width: 70%;
+}
+
+.para {
+  font-size: 15pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  text-align: justify;
+}
+.servPadding {
+  padding: 20px 30px;
+  text-align: left;
+}
+.servicesTitle {
+  font-size: 35pt;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin-top: 0px;
+  color: var(--primary-color);
+}
+.button {
+  padding: 15px 25px;
+  border: 1px solid #fc2904;
+  transition: ease-in-out 0.5s !important;
+  background: none;
+  border-radius: 5px;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+.button:hover {
+  border: 1px solid #fff;
+  background: #fc2904;
+  color: #fff;
+  padding: 15px 27px;
+}
+
+@media only screen and (min-width: 1500px) {
+  .service {
+    padding: 10px 100px;
+  }
+  .serviceImg {
+    width: 60%;
+  }
+  .servPadding {
+    text-align: justify;
+  }
+  .service {
+    font-size: 48pt;
+  }
+
+  .para {
+    font-size: 18pt;
+  }
+  .servicesTitle {
+    font-size: 30pt;
+  }
+}
+/* IPOD PRO */
+@media only screen and (max-width: 1024px) {
+  .serviceImg {
+    width: 100%;
+  }
+  .serviceImg {
+    width: 50%;
+  }
+  .servPadding {
+    text-align: center;
+  }
+  .para {
+    font-size: 17pt;
+  }
+}
+.services {
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 376px) {
+  .servPadding {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .services {
+    padding: 70px 20px 115px 20px;
+  }
+  .service {
+    font-size: 20pt;
+  }
+  .servicesTitle {
+    font-size: 19pt;
+  }
+  .para {
+    font-size: 12pt;
+    text-align: justify;
+  }
+  .button {
+    font-size: 13pt;
+    padding: 10px 15px;
+  }
+}

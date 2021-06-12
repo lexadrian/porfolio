@@ -1,0 +1,51 @@
+nav {
+  margin-top: 10px;
+  text-align: center;
+}
+.link {
+  padding: 3px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+.linkDisabled {
+  padding: 3px;
+  text-decoration: none;
+  color: rgb(206, 203, 203);
+  margin-left: 10px;
+}
+.linkDisabled:hover {
+  color: rgb(206, 203, 203);
+  cursor: no-drop;
+}
+nav .link:hover {
+  border-bottom: 4px solid red;
+  color: #fff;
+}
+.isOff {
+  display: none;
+}
+.isOn {
+  display: block;
+}
+.active {
+  border-bottom: 4px solid red;
+}
+@media only screen and (min-width: 1500px) {
+  .link {
+    font-size: 15pt;
+    padding: 3px 8px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .link {
+    display: block;
+    margin-top: 20px;
+    border-bottom: 1px solid #fff;
+  }
+  .linkDisabled {
+    margin-top: 20px !important;
+  }
+}

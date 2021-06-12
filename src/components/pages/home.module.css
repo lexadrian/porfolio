@@ -1,0 +1,154 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+p,
+input,
+textarea,
+button,
+a {
+  font-family: var(--secondary-font);
+}
+.home {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: url("../../bg.gif");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.overlay {
+  width: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 130px 55px 115px 55px;
+}
+.hello,
+.name {
+  color: #fff;
+  font-family: var(--primary-font);
+  font-weight: 200;
+  font-size: 45pt;
+  letter-spacing: 10px;
+}
+.red {
+  color: #fc2904;
+}
+.developer {
+  font-size: 20pt;
+  color: #fc2904;
+  font-family: var(--primary-font);
+  letter-spacing: 10px;
+  font-weight: 200;
+}
+.white {
+  color: #fff;
+}
+.para {
+  letter-spacing: 2px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: 100;
+  opacity: 0.7;
+}
+.button {
+  padding: 15px 25px;
+  border: 1px solid #fc2904;
+  transition: ease-in-out 0.5s !important;
+  background: none;
+  border-radius: 5px;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+.button:hover {
+  border: 1px solid #fff;
+  background: #fc2904;
+  color: #fff;
+  padding: 15px 27px;
+}
+.try {
+  width: 100%;
+  float: left;
+  height: 50vh;
+}
+.paddText {
+  padding-right: 500px;
+}
+/* Large Device */
+@media only screen and (min-width: 1500px) {
+  .overlay {
+    padding: 190px 100px;
+  }
+  .hello,
+  .name {
+    font-size: 48pt;
+  }
+  .para {
+    font-size: 15pt;
+  }
+  .developer {
+    font-size: 24pt;
+  }
+}
+/* IPOD PRO */
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .para {
+    text-align: center;
+  }
+  .paddText {
+    padding-right: 0;
+  }
+  .overlay {
+    padding: 130px 55px 85px 55px;
+  }
+  .para {
+    font-size: 17pt;
+    font-weight: 100;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .overlay {
+    padding: 130px 25px 115px 25px;
+  }
+  .hello {
+    font-size: 20pt;
+  }
+  .name {
+    font-size: 20pt;
+  }
+  .para {
+    font-weight: 100;
+    font-size: 10pt;
+  }
+  .button {
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .overlay {
+    padding: 130px 20px 115px 20px;
+  }
+  .hello {
+    font-size: 20pt;
+  }
+  .name {
+    font-size: 20pt;
+  }
+  .para {
+    font-weight: 100;
+    font-size: 10pt;
+  }
+  .button {
+    font-size: 10pt;
+  }
+}

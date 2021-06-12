@@ -1,0 +1,36 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+
+.thankyou {
+  font-size: 30pt;
+  font-family: var(--primary-font);
+  letter-spacing: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+.name {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.message {
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+.position {
+  font-size: 10pt;
+  font-style: italic;
+}
+@media only screen and (min-width: 1500px) {
+  /* heading 48pt padding x 100 default font size 18pt */
+  .position {
+    font-size: 13pt;
+  }
+  .message {
+    font-size: 18pt;
+  }
+}

@@ -1,0 +1,115 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+
+.contactMain {
+  width: 100%;
+  min-height: 100vh;
+  float: left;
+  padding: 90px 100px 50px 100px;
+}
+.touch {
+  font-size: 30pt;
+  font-family: var(--primary-font);
+  letter-spacing: 3px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contactMe {
+  font-family: var(--primary-font);
+  letter-spacing: 3px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.touchpara {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.textbox {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-bottom: 2px solid #b8b3b3;
+  transition: 0.2s;
+  margin-bottom: 20px;
+  background: none;
+}
+.textbox:focus {
+  outline: none;
+  border-left: 5px solid var(--primary-color);
+  border-bottom: 1px solid #b8b3b3;
+}
+.send {
+  padding: 5px 35px;
+  border: 1px solid var(--primary-color);
+  font-size: 13pt;
+  background: var(--primary-color);
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.sending {
+  padding: 5px 35px;
+  border: 1px solid var(--primary-color);
+  font-size: 13pt;
+  background: #700101;
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.FormPadding {
+  padding: 0px 20px 0px 50px;
+}
+.isShow {
+  display: block;
+}
+.isHide {
+  display: none;
+}
+.thankyou {
+  display: block;
+}
+
+/* Large Device */
+@media only screen and (min-width: 1500px) {
+  /* heading 48pt padding x 100 default font size 18pt */
+  .contactMe {
+    font-size: 28pt;
+  }
+  .touchpara,
+  .textbox,
+  .send {
+    font-size: 18pt;
+  }
+  .touch {
+    font-size: 48pt;
+  }
+}
+/* IPOD PRO */
+
+@media only screen and (max-width: 769px) {
+  .contactMain {
+    padding: 50px 25px;
+    min-width: 50vh;
+    overflow-x: hidden;
+  }
+  .FormPadding {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+}
+
+@media only screen and (max-width: 415px) {
+  .contactMain {
+    padding: 50px 25px;
+  }
+  .FormPadding {
+    padding: 0;
+  }
+}

@@ -1,0 +1,37 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+.fixedSocial {
+  position: fixed;
+  right: -5px;
+  top: 30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0 10px;
+  border-radius: 5px;
+  transition: ease-in 0.4s;
+}
+.fixedSocial:hover {
+  padding: 0 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.icon {
+  margin: 0;
+  font-size: 25pt;
+  display: block;
+}
+.icon:hover {
+  color: var(--primary-color);
+}
+.hideSocial {
+  display: none;
+}
+@media only screen and (max-width: 769px) {
+  .fixedSocial {
+    overflow-x: hidden;
+  }
+  .hideSocial {
+    overflow: hidden;
+  }
+}

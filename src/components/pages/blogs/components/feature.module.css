@@ -1,0 +1,52 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--primary-font);
+}
+p,
+button,
+input,
+a,
+span textarea {
+  font-family: var(--secondary-font);
+}
+.title {
+  font-weight: 400;
+  font-size: 15pt;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+}
+.description {
+  font-size: 11pt;
+  text-align: justify;
+}
+.posted {
+  font-size: 10pt;
+}
+.imgContainer {
+  height: 420px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgFeature {
+  object-fit: contain;
+  min-width: 100%;
+  min-height: 100%;
+}
+.imgFeature:hover {
+  cursor: pointer;
+}
+.featureTitle {
+  font-weight: 200;
+  font-size: 28pt;
+}

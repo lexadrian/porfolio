@@ -1,0 +1,25 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  padding: 30px 100px 20px 100px;
+  background: url("../../bg.gif");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.brand {
+  width: 70px;
+}
+.name {
+  font-family: var(--primary-font);
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}

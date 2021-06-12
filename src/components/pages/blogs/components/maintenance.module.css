@@ -1,0 +1,32 @@
+.maintenanceSection {
+  width: 100%;
+  min-height: 100vh;
+  float: left;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 180px;
+  overflow: hidden;
+}
+.maintenanceSection h1 {
+  text-transform: uppercase;
+  color: #ca0404;
+  letter-spacing: 3px;
+}
+.gear {
+  font-size: 55pt;
+  color: #ca0404;
+}
+.maintenanceSection button {
+  padding: 10px 15px;
+  border: 1px solid #ca0404;
+  color: #ca0404;
+}
+.back {
+  margin-right: 10px;
+}
+.hide {
+  display: none;
+}

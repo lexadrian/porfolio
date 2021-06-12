@@ -1,0 +1,35 @@
+.test {
+  width: 100%;
+  float: left;
+}
+.offsetHeader {
+  padding: 30px 50px 30px 50px;
+  position: relative;
+}
+.bloglistTitle {
+  padding: 0 50px;
+}
+.fixedContent {
+  padding: 0 20px;
+}
+.fixedContent:last-child {
+  margin-bottom: 80px;
+}
+.listContent {
+  top: 30px;
+  bottom: 0;
+  right: 0px;
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.listContent::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.listContent {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

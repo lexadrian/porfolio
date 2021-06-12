@@ -1,0 +1,243 @@
+:root {
+  --primary-font: "Roboto Slab", serif;
+  --secondary-font: "Roboto Condensed", sans-serif;
+  --primary-color: #fc2904;
+}
+p,
+input,
+textarea,
+button,
+a {
+  font-family: var(--secondary-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--primary-font);
+}
+.projectSection {
+  width: 100%;
+  min-height: 100vh;
+  float: left;
+  padding: 45px 55px;
+  transition: 0.2s;
+  background: #000;
+  color: #fff;
+}
+.title {
+  font-size: 45pt;
+  font-weight: 200;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.para {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.paraSection {
+  padding: 0 120px;
+}
+.myProjects {
+  width: 100%;
+  float: left;
+  padding: 45px 55px;
+}
+.cardAlign {
+  text-align: center;
+}
+.imgContainer {
+  width: 100%;
+  height: 180px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  padding: 10px 18px;
+  z-index: 999;
+}
+.imgProject {
+  width: 100%;
+  min-height: 180px;
+  transition: transform 0.6s;
+}
+.projectTitle {
+  font-weight: 200;
+  font-size: 20pt;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  /* text-align: left; */
+}
+.imgContainer:hover .imgProject {
+  transform: scale(1.5);
+}
+.imgContainer:hover .overlay {
+  cursor: pointer;
+  opacity: 1;
+}
+.projectPara {
+  font-weight: 100;
+  font-size: 10pt;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.linkWebsite {
+  border: 1px solid var(--primary-color);
+  background: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 100;
+  transition: ease-in 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.linkWebsite:hover {
+  border: 1px solid #fff;
+  background: #fc2904;
+  color: #fff;
+}
+
+@media only screen and (max-width: 769px) {
+  .projectSection {
+    padding: 50px 20px;
+    overflow-x: hidden;
+  }
+  .paraSection {
+    padding: 0 50px;
+  }
+  .para {
+    text-align: justify;
+    font-size: 15pt;
+  }
+  .title {
+    font-size: 35pt;
+  }
+  .imgContainer {
+    height: 380px;
+    margin-bottom: 25px;
+  }
+  .projectTitle {
+    font-size: 25pt;
+  }
+  .projectPara {
+    font-size: 20pt;
+  }
+  .linkWebsite {
+    font-size: 20pt;
+  }
+  .overlay {
+    padding: 50px 18px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  /* heading 48pt padding x 100 default font size 18pt */
+  .projectSection {
+    padding: 45px 100px;
+  }
+  .title {
+    font-size: 48pt;
+  }
+  .para {
+    font-size: 18pt;
+  }
+  .paraSection {
+    padding: 20px 55px;
+  }
+  .myProjects {
+    padding: 20px;
+  }
+  .imgContainer {
+    height: 280px;
+  }
+  .imgProject {
+    object-fit: fill;
+    transform: scale(1.9);
+  }
+  .projectTitle {
+    font-size: 30pt;
+  }
+  .projectPara {
+    font-size: 15pt;
+  }
+  .linkWebsite {
+    font-size: 15pt;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .title {
+    font-size: 25pt;
+  }
+  .para {
+    font-size: 10pt;
+  }
+  .paraSection {
+    padding: 0 20px;
+  }
+  .myProjects {
+    padding: 20px;
+  }
+  .projectPara {
+    font-size: 10pt;
+  }
+  .projectTitle {
+    font-size: 15pt;
+  }
+  .overlay {
+    padding: 20px;
+  }
+  .linkWebsite {
+    font-size: 10pt;
+    padding: 5px 10px;
+  }
+  .imgContainer {
+    height: 180px;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .title {
+    font-size: 25pt;
+  }
+  .para {
+    font-size: 10pt;
+  }
+  .paraSection {
+    padding: 0 20px;
+  }
+  .myProjects {
+    padding: 20px;
+  }
+  .projectPara {
+    font-size: 10pt;
+  }
+  .projectTitle {
+    font-size: 15pt;
+  }
+  .overlay {
+    padding: 20px;
+  }
+  .linkWebsite {
+    font-size: 10pt;
+    padding: 5px 10px;
+  }
+  .imgContainer {
+    height: 180px;
+    margin-bottom: 25px;
+  }
+}
