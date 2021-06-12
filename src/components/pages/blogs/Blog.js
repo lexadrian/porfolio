@@ -41,7 +41,7 @@ const Blog = () => {
     },
     {
       id: 5,
-      title: "Day 1: React JS Journey",
+      title: "Day 5: React JS Journey",
       image: "../../asset/1.jpg",
       desciption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
@@ -49,7 +49,16 @@ const Blog = () => {
     },
     {
       id: 6,
-      title: "Day 2: React JS Journey",
+      title: "Day 6: React JS Journey",
+      image: "../../asset/3.jpg",
+      desciption:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
+      date: "May 30, 2021",
+    },
+    ,
+    {
+      id: 7,
+      title: "Day 7: React JS Journey",
       image: "../../asset/3.jpg",
       desciption:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.           Expedita at corrupti nihil illum mollitia eius consectetur               aliquam natus vel ipsum minima, explicabo dolor necessitatibus               quos ipsam fuga id quod sint! Lorem ipsum dolor sit ame onsectetur,adipisicing elit. Mollitia voluptas fuga cumque                excepturi temporibus sunt sint dolor inventore numquam.                Blanditiis rem accusantium nobis officia, in laudanti inventore voluptatem voluptas amet!",
